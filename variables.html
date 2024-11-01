@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variablles in a function</title>
+</head>
+<body>
+    <button onclick="myfunction()">Click me</button>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+<script>
+    var a=3;
+    function myfunction(){
+        var b=2;
+        document.getElementById("demo").innerHTML=a*b;
+        document.getElementById("demo1").innerHTML =a;
+        document.getElementById("demo2").innerHTML =b;
+    }
+</script>
+</body>
+</html>
